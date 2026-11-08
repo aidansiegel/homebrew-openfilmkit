@@ -3,10 +3,9 @@
 class Openfilmkit < Formula
   desc "Free command-line film scanning and negative conversion, built on SANE"
   homepage "https://github.com/aidansiegel/OpenFilmKit"
-  url "https://github.com/aidansiegel/OpenFilmKit/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "c1701929ad13f60fb0d7deb37ad0cc1f49927a4c1f79514dd8a39add197988da"
+  url "https://github.com/aidansiegel/OpenFilmKit/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a909331bee6c9f36d8243e76928e7f6a90767828521202e1224590965bdb718d"
   license "GPL-3.0-or-later"
-  revision 1
   head "https://github.com/aidansiegel/OpenFilmKit.git", branch: "main"
 
   depends_on "autoconf" => :build
