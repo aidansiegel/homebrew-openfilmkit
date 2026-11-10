@@ -1,10 +1,10 @@
-# OpenFilmKit 0.5.0. Source of this formula: packaging/homebrew/openfilmkit.rb in
+# OpenFilmKit 0.6.0. Source of this formula: packaging/homebrew/openfilmkit.rb in
 # aidansiegel/OpenFilmKit, with the release tarball's sha256 filled in.
 class Openfilmkit < Formula
   desc "Free command-line film scanning and negative conversion, built on SANE"
   homepage "https://github.com/aidansiegel/OpenFilmKit"
-  url "https://github.com/aidansiegel/OpenFilmKit/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "401a2c601e893f7501c2a72bdf6d29eaa5eb7df846dbf99604bd370b98e6de9f"
+  url "https://github.com/aidansiegel/OpenFilmKit/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "8fb6e15c0285cb4a8fdc2213b96ca1ece9f5cdc2696084019ee65f4d308bf0f3"
   license "GPL-3.0-or-later"
   head "https://github.com/aidansiegel/OpenFilmKit.git", branch: "main"
 
